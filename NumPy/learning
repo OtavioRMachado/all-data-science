@@ -1,0 +1,19 @@
+Learning Log - Num Py
+
+O objeto principal do NumPy é o array multidimensional homogêneo, ou seja, é uma tabela de elementos (geralmente números), todos do mesmo tipo, indexados por uma tupla de inteiros positivos. 
+As dimensões do NumPy são chamados eixos. O número de eixos é o rank.
+
+Ex: [1, 2, 3] é um array de rank 1, porque só tem um eixo. O eixo tem tamanho 3
+Ex2: [[1., 0., 0.], [0., 1., 2.]] é um array de rank 2. O primeiro eixo tem tamanho 2, o segundo eixo tem tamanho 3.
+
+O array da classe do NumPy é chamado ndarray. Ele traz os seguintes atributos
+
+ndarray.ndim - número de dimensões
+ndarray.shape - as dimensões do array. O length desse array é o ndim.
+ndarray.size - o número total deelementos do array. É o produto dos elementos de shape.
+ndarray.dtype - um objeto descrevend oo tipo dos elementos no array. 
+ndarray.itemsize - o tamanho, em bytes, de cada elemento do array. 
+ndarray.data - um buffer contendo os elementos do array.
+
+Criação de Arrays
+Há várias formas de criar um array.
